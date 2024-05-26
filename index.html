@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>SamTech</h1>
+            <div id="header">
+                <ul class="nav">
+                    <li><a href="#productos">Marcas</a>
+							<ul>
+								<li><a>Samsung</a></li>
+								<li><a>Xiaomi</a></li>
+								<li><a>Motorola</a></li>
+							</ul>
+                    </li>
+					<li><a href="#buy">Como comprar</a></li>
+					<li><a href="#contactar">Contacto</a></li>
+
+	            </ul>
+            </div>
+			<div class="container-icon">
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Zapatos Nike</p>
+                            <span class="precio-producto-carrito">$80</span>
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$200</span>
+                    </div>
+				</div>
+			</div>
+		</header>
+		<div class="container-items" id="productos">
+			<div class="item">
+				<figure>
+					<img
+						src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Zapatos Nike</h2>
+					<p class="price">$80</p>
+					<a href="#buy">
+						<button>Comprar</button>
+					</a>
+					
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Audifonos</h2>
+					<p class="price">$20</p>
+					<a href="#buy">
+						<button>Comprar</button>
+					</a>		
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1099&q=80"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Reloj</h2>
+					<p class="price">$50</p>
+					<a href="#buy">
+						<button>Comprar</button>
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Smartwatch</h2>
+					<p class="price">$90</p>
+					<a href="#buy">
+						<button>Comprar</button>
+					</a>
+					</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>perfume</h2>
+					<p class="price">$90</p>
+					<a href="#buy">
+						<button>Comprar</button>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- COMENTAR-->
+	 <section class="dos" id="buy">
+        <h1>Compra</h1>
+        <h2>Por</h2>
+        <div class="icon-mercadolibre">
+            <div>
+                <a target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/mercadolibre.svg" class="tech" alt=""></a>
+                 
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="tech">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                  </svg>
+                  
+            </div>
+        </div>
+        <h2>A tener en cuenta</h2>
+        <ul>
+            <li>
+            <p>Por Mercado Libre no estan publicados todos los pruductos que tenemos disponibles 👉 <a href="https://www.mercadolibre.com.ar/" target="_blank">Ir a Mercado Libre</a></p>
+            </li>
+            <li><p>De manera Presencial en nuestro local. Tenes que Contactarnos al WhatsApp asi podremos agendar una cita 👉 <a href="https://web.whatsapp.com/" target="_blank">Ir a WhatsApp</a></p> </li>
+			<li><p>Podes seguirnos y ver que productos van ingresando por Instagram, Facebook o consultandonos por WhatsApp</p> </li>
+
+        </ul>
+
+    </section>
+
+
+
+		<footer class="footer" id="contactar">
+			<ul class="social-icon">
+			  <li class="icon-elem">
+				<a href="" class="icon">
+				  <ion-icon name="logo-youtube"></ion-icon>
+				</a>
+			  </li>
+			  <li class="icon-elem">
+				<a href="" class="icon">
+				  <ion-icon name="logo-instagram"></ion-icon>
+				</a>
+			  </li>
+			  <li class="icon-elem">
+				<a href="" class="icon">
+				  <ion-icon name="logo-whatsapp"></ion-icon>
+				</a>
+			  </li>
+			  <li class="icon-elem">
+				<a href="" class="icon">
+				  <ion-icon name="logo-facebook"></ion-icon>
+				</a>
+			  </li>
+			  <li class="icon-elem">
+				<a href="" class="icon">
+				  <ion-icon name="mail-outline"></ion-icon>
+				</a>
+			  </li>
+			</ul>
+			<ul class="menu">
+			  <li class="menu-elem">
+				<a href="" class="menu-icon"> Instagram </a>
+			  <li class="menu-elem">
+				<a href="" class="menu-icon"> Facebook </a>
+			  </li>
+			  <li class="menu-elem">
+				<a href="" class="menu-icon"> WhatsApp </a>
+			  </li>
+			</ul>
+			<p class="text">@2024 | Todos los derechos reservados</p>
+		</footer>
+
+				
+	</body>
+</html>
