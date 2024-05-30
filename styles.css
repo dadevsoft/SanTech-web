@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
@@ -92,10 +93,6 @@ header{
     border-radius: 50%;
 }
 
-#contador-productos{
-    font-size: 12px;
-}
-
 .container-cart-products{
     position: absolute;
     top: 50px;
@@ -124,57 +121,9 @@ header{
     justify-content: space-between;
     flex: 0.8;
 }
-
-.titulo-producto-carrito{
-    font-size: 20px;
-}
-
-.precio-producto-carrito{
-    font-weight: 700;
-    font-size: 20px;
-    margin-left: 10px;
-}
-
-.cantidad-producto-carrito{
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.icon-close{
-    width: 25px;
-    height: 25px;
-}
-
-.icon-close:hover{
-    stroke: red;
-    cursor: pointer;
-}
-
-.cart-total{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0;
-    gap: 20px;
-}
-
-.cart-total h3{
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.total-pagar{
-    font-size: 20px;
-    font-weight: 900;
-}
-
 .hidden-cart{
     display: none;
 }
-
-
-
-
 /* Main */
 .container-items{
     display: grid;
@@ -321,4 +270,16 @@ header{
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 20px;
+}
+@media (max-width: 600px) {
+    .container-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .dos{
+        height: auto;
+        padding: 0 10px 10px 10px;
+
+    }
 }
